@@ -1,0 +1,10 @@
+body
+{
+  background-color: rgb(163, 60, 60);
+}
+.myimages
+{
+  height: 300px;
+  width: 275px;
+  border-radius: 20px;
+}

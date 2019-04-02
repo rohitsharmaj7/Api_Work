@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Currency Converter Project</title>
+	<meta name="author" description="Rohit Sharma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+	  <a class="navbar-brand">
+	    <img src="../../assets/images/upgrad.png" width="30" height="30" alt="">
+	    <b class="logo-text">Project CurrencyCoverter</b>
+	  </a>
+  </nav>
+
+  <div class="container-fluid">
+  	<div class="row form-container">
+  		<div class="col-md-4 col-lg-4 col-10 m-auto">
+  			<form class="p-4">
+  			  <h5 class="mb-4 text-white">Currency Converter</h5>
+			  <div class="form-group">
+			    <label for="exampleFormControlSelect1" class="text-white">Select the currency From which you want to convert</label>
+			    <select id="locality-dropdown" class="form-control" name="locality">
+                </select>
+		      </div>
+			   <div class="form-group">
+			   	    <label for="exampleFormControlSelect2" class="text-white">Enter the amount you want to convert</label>
+			   	    <input class="form-control" type="number" id="yourInput">
+			   </div>
+
+			   <div class="form-group">
+				    <label for="exampleFormControlSelect1" class="text-white">Select the currency to which you want to convert</label>
+				    <select id="locality-dropdown1" class="form-control" name="locality">
+	                </select>
+			   </div>
+			   <div class="form-group">
+			        <p id="rs" class="text-white text-center"></p>
+			        <input class="btn btn-success btn-block" value="Get Result" onclick="currencyConversion()">
+			   </div>
+            </form>		      
+  		</div>
+  	</div>
+  </div>
+
+   <script type="text/javascript" src="js/script_cc.js"></script>
+</body>
+</html>

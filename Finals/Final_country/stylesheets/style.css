@@ -1,0 +1,54 @@
+body
+{
+  background-color: rgb(163, 60, 60)
+}
+    
+form
+{
+  background-color: rgba(0.3,0,0,0.3);
+}
+
+/*Media query part for the form*/
+
+@media screen and (max-width: 575px)
+{
+  .form-container
+  {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 767px)
+{
+	.form-container
+	{
+     margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 992px)
+{
+	.form-container
+	{
+     margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 1500px)
+{
+	.form-container
+	{
+     margin-top: 10%;
+	}
+}
+
+/*End of media queries*/
+
+.countryInfoBox
+{
+   background-color: rgba(0,0,0,0.3);
+}
+li
+{
+   list-style-type: none;
+}

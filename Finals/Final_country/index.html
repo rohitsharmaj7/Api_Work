@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Project Country Info Api</title>
+	<meta name="author" description="Rohit Sharma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+	  <a class="navbar-brand">
+	    <img src="../../assets/images/upgrad.png" width="30" height="30" alt="">
+	    <b class="logo-text">Project CountryInfo</b>
+	  </a>
+  </nav>
+
+  <div class="container">
+  	<div class="row form-container">
+  		<div class="col col-md-6 col-12 mb-1">
+			  <div class="p-4 countryInfoBox">
+			  	<h5 class="mb-2 text-white">MyCountry Info Api</h5>
+			  	<div class="form-group">
+				    <label for="exampleInputCountry" class="text-white">Country Name Here</label>
+				    <input type="text" class="form-control" id="yourCountry">
+			    </div>
+                
+                <div class="form-group">
+			        <input type="submit" class="btn btn-success btn-block" value="Submit" onclick="CountryInfo()">
+			    </div>
+			  </div>	            
+  		</div>
+        
+        <div class="col col-md-6 col-12">
+        	  <div class="p-4 countryInfoBox">
+	              <b class="text-white">Name of the country</b><li id="nameOfNation" class="text-white"></li>
+	              <b class="text-white">Calling code of the country</b><li id="callingCodes" class="text-white"></li>
+	              <b class="text-white">Capital of the country</b><li id="capital" class="text-white"></li>
+	              <b class="text-white">Population</b><li id="population" class="text-white"></li>
+	              <b class="text-white">TimeZone</b><li id="timezone" class="text-white"></li>
+	              <b class="text-white">Domain Used</b><li id="domain" class="text-white"></li>
+	              <b class="text-white">Currency : Code, Name & symbol</b><li id="currency" class="text-white"></li>
+              </div>
+        </div>
+  	</div>
+  </div> 
+  
+  <script type="text/javascript" src="js/script_countryInfo.js"></script>
+</body>
+</html>
