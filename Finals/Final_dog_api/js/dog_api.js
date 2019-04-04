@@ -1,3 +1,7 @@
+function myFunction() {
+  location.reload();
+}
+
 $.ajax({ 
 	type: 'GET', 
 	url: 'https://dog.ceo/api/breeds/image/random/4', 
