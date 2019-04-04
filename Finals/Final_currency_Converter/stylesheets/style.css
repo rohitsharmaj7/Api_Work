@@ -7,10 +7,6 @@ form
 {
   background-color: rgba(0.3,0,0,0.3);
 }
-.btn
-{
-	cursor:pointer;
-}
 /*Media query part for the form*/
 @media screen and (max-width: 575px)
 {
